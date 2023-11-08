@@ -1,6 +1,6 @@
 
 
-# Desafio 3. Programa de Empréstimo
+# Desafio 3: Programa de Empréstimo
 
 Este programa é um sistema de empréstimo onde os usuários podem criar contas, sacar dinheiro em diferentes combinações de notas e verificar a adequação do valor do saque às regras do banco.
 
