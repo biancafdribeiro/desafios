@@ -1,3 +1,24 @@
+# Desafio 1: Criptografia de Senhas
+
+Este é um programa desenvolvido em C# que demonstra a criptografia de senhas usando o algoritmo AES (Advanced Encryption Standard).
+
+## Visão Geral
+
+O programa permite ao usuário inserir três senhas diferentes e as criptografa individualmente. As senhas são criptografadas usando uma chave secreta comum, mas cada senha é associada a um vetor de inicialização (IV) exclusivo. O IV é gerado aleatoriamente para cada senha, tornando o processo de criptografia mais seguro.
+
+## Passos de Execução
+
+1. **Chave Secreta**: O programa começa definindo uma chave secreta que será usada para criptografar e descriptografar os dados. A chave secreta é uma string que é convertida em um array de bytes e ajustada para ter um tamanho de 32 bytes.
+
+2. **Entrada do Usuário**: O usuário é solicitado a inserir três senhas distintas (senha1, senha2 e senha3).
+
+3. **Vetores de Inicialização (IV)**: Para cada senha, um vetor de inicialização (IV) de 16 bytes é gerado aleatoriamente. Isso adiciona um nível de aleatoriedade ao processo de criptografia, garantindo que a mesma senha criptografada seja diferente toda vez.
+
+4. **Criptografia**: O programa utiliza o algoritmo AES para criptografar cada senha individualmente. Ele cria um objeto AES com a chave secreta e o IV correspondente. O algoritmo AES é usado para criar um encryptor baseado na chave e no IV. Em seguida, as senhas são convertidas em arrays de bytes e criptografadas usando o IV e a chave.
+
+5. **Exibição dos Resultados**: Após a criptografia, o programa exibe as senhas originais e suas versões criptografadas como strings base64.
+
+
 # Desafio 2: Processamento de Aniversariantes
 
 Este é um programa desenvolvido em C# que lê informações de colaboradores a partir de um arquivo de entrada, identifica os colaboradores que fazem aniversário no mês atual e cria um arquivo de saída com as informações dos respectivos aniversariantes.
