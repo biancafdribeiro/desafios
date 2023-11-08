@@ -1,0 +1,7 @@
+C:\Users\bibif\source\repos\Desafio1\bin\Debug\Desafio1.exe.config
+C:\Users\bibif\source\repos\Desafio1\bin\Debug\Desafio1.exe
+C:\Users\bibif\source\repos\Desafio1\bin\Debug\Desafio1.pdb
+C:\Users\bibif\source\repos\Desafio1\obj\Debug\Desafio1.csproj.AssemblyReference.cache
+C:\Users\bibif\source\repos\Desafio1\obj\Debug\Desafio1.csproj.CoreCompileInputs.cache
+C:\Users\bibif\source\repos\Desafio1\obj\Debug\Desafio1.exe
+C:\Users\bibif\source\repos\Desafio1\obj\Debug\Desafio1.pdb
