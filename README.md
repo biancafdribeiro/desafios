@@ -1,8 +1,27 @@
+# Desafio 2: Processamento de Aniversariantes
+
+Este é um programa desenvolvido em C# que lê informações de colaboradores a partir de um arquivo de entrada, identifica os colaboradores que fazem aniversário no mês atual e cria um arquivo de saída com as informações dos respectivos aniversariantes.
+
+## Leitura e Processamento de Dados
+
+- O arquivo de entrada é lido utilizando a função `File.ReadAllText()` e o conteúdo é armazenado em uma string.
+
+- O programa processa as informações para identificar os colaboradores que fazem aniversário no mês atual.
+
+- O resultado é armazenado em uma lista chamada "aniversariantes", que contém strings formatadas com nome, e-mail e mês de nascimento dos colaboradores.
+
+## Escrita de Dados
+
+- O programa cria o conteúdo do arquivo de saída ("TEXTOUTPUT.txt") concatenando strings.
+
+- É utilizada a função `File.WriteAllText()` para escrever o conteúdo no arquivo de saída.
+
+- O arquivo de saída conterá uma mensagem de parabéns e a lista de aniversariantes.
 
 
 # Desafio 3: Programa de Empréstimo
 
-Este programa é um sistema de empréstimo onde os usuários podem criar contas, sacar dinheiro em diferentes combinações de notas e verificar a adequação do valor do saque às regras do banco.
+Este programa desenvolvido em C# é um sistema de empréstimo onde os usuários podem criar contas, sacar dinheiro em diferentes combinações de notas e verificar a adequação do valor do saque às regras do banco.
 
 ## Program
 
